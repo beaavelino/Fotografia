@@ -20,8 +20,25 @@ i{
     margin-left: -75px;
 }
 
+.navbar-toggler{
+    background: #363636;
+}
+
+
+
+
+
+
+
+
+
+
+
 @media only screen and (max-width:600px) {
     .jumbotron{
         text-align: justify;
+    }
+    .esquerda{
+        margin-left: 0;
     }
 }
