@@ -16,8 +16,12 @@ i{
     font-size: 3.5rem;
 }
 
-.junto{
-    display: flex;
-    flex-flow: row;
-    justify-content: end;
+.esquerda{
+    margin-left: -75px;
+}
+
+@media only screen and (max-width:600px) {
+    .jumbotron{
+        text-align: justify;
+    }
 }
